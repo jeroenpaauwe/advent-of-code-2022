@@ -18,4 +18,4 @@ for i in range(0,len(signal)-13):
         signal[i:i+14].count(signal[i+12]) == 1 and signal[i:i+14].count(signal[i+13]) == 1):
         break
         
-print(i+14) # solution part 1
+print(i+14) # solution part 2
